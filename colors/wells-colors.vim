@@ -46,6 +46,8 @@ hi Float ctermfg=105 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi Number ctermfg=105 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi Structure ctermfg=105 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi StorageClass ctermfg=105 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
+hi cssColor ctermfg=105 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
+hi cssValueLength ctermfg=105 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 
 " light green color
 hi Type ctermfg=120 ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -112,6 +114,4 @@ hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE g
 hi yamlAnchor ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlAlias ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlDocumentHeader ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
-hi cssColor ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
-hi cssValueLength ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
