@@ -1,5 +1,3 @@
-" modified monokai
-
 set background=dark
 highlight clear
 
