@@ -1,7 +1,7 @@
 # wells-vim-colors
 
 yellow highlight is for visual mode and search
-![screenshot](http://i.imgur.com/I2RZe6Q.png)
+![screenshot](http://i.imgur.com/64GS2kE.png)
 
 #Install (pathogen)
 ```bash
