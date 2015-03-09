@@ -48,6 +48,7 @@ hi Structure ctermfg=105 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NO
 hi StorageClass ctermfg=105 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 hi cssColor ctermfg=105 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi cssValueLength ctermfg=105 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
+hi htmlSpecialChar ctermfg=105 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 
 " light green color
 hi Type ctermfg=120 ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -56,16 +57,28 @@ hi cssClassName ctermfg=120 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui
 hi htmlH2 ctermfg=120 ctermbg=NONE cterm=NONE guifg=#67930f guibg=NONE gui=NONE
 hi cssPseudoClassId ctermfg=120 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 
-" other
-hi Folded ctermfg=242 ctermbg=235 cterm=NONE guifg=#75715e guibg=#272822 gui=NONE
-hi TabLineFill term=bold cterm=bold ctermbg=0
+" grey
+" comments, folded
+hi Folded ctermfg=245 ctermbg=235 cterm=NONE guifg=#75715e guibg=#272822 gui=NONE
+hi Comment ctermfg=245 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
+
+" light pink
 hi Normal ctermfg=231 ctermbg=234 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
-hi Comment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
-hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#f8f8f2 guibg=#46830c gui=bold
-hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8b0807 guibg=NONE gui=NONE
 hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#f8f8f2 guibg=#243955 gui=NONE
 hi DiffText ctermfg=231 ctermbg=24 cterm=bold guifg=#f8f8f2 guibg=#204a87 gui=bold
+hi Special ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
+hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#f8f8f2 guibg=NONE gui=bold
+hi StatusLine ctermfg=231 ctermbg=241 cterm=bold guifg=#f8f8f2 guibg=#64645e gui=bold
+hi StatusLineNC ctermfg=231 ctermbg=241 cterm=NONE guifg=#f8f8f2 guibg=#64645e gui=NONE
+
+" cursor
+hi Cursor ctermfg=235 ctermbg=231 cterm=NONE guifg=#272822 guibg=#f8f8f0 gui=NONE
+
+" other
+hi TabLineFill term=bold cterm=bold ctermbg=0
+hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8b0807 guibg=NONE gui=NONE
 
 " bright blue
 " variables
@@ -84,18 +97,13 @@ hi cssURL ctermfg=214 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui=itali
 
 hi Label ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 hi NonText ctermfg=238 ctermbg=NONE cterm=NONE guifg=#49483e guibg=NONE gui=NONE
-hi Special ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
 hi SpecialKey ctermfg=236 ctermbg=None cterm=NONE guifg=#49483e guibg=#3c3d37 gui=NONE
-hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#f8f8f2 guibg=NONE gui=bold
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
-hi Cursor ctermfg=235 ctermbg=231 cterm=NONE guifg=#272822 guibg=#f8f8f0 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi LineNr ctermfg=102 ctermbg=237 cterm=NONE guifg=#90908a guibg=#3c3d37 gui=NONE
 hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE guifg=#64645e guibg=#64645e gui=NONE
-hi StatusLine ctermfg=231 ctermbg=241 cterm=bold guifg=#f8f8f2 guibg=#64645e gui=bold
-hi StatusLineNC ctermfg=231 ctermbg=241 cterm=NONE guifg=#f8f8f2 guibg=#64645e gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 
@@ -105,7 +113,6 @@ hi htmlTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlEndTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlTagName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlArg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi htmlSpecialChar ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 
 " javascript
 hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
