@@ -1,7 +1,7 @@
 # wells-colorscheme
 
 yellow highlight is for visual mode and search
-![screenshot](http://i.imgur.com/64GS2kE.png)
+![screenshot](http://i.imgur.com/GFEjjzi.png)
 
 #Install (pathogen)
 ```bash
