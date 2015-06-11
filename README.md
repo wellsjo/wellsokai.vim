@@ -13,3 +13,6 @@ then in vimrc
 ```bash
 colorscheme wells-colors
 ```
+
+# License
+MIT
