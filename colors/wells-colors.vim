@@ -1,4 +1,4 @@
-# @author Wells Johnston <w@wellsjohnston.com>
+" @author Wells Johnston <w@wellsjohnston.com>
 
 set background=dark
 highlight clear
