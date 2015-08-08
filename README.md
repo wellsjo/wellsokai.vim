@@ -11,7 +11,7 @@ git clone https://github.com/wellsjo/wells-colorscheme.vim.git
 
 then in vimrc
 ```bash
-colorscheme wells-colors
+colorscheme wellsokai
 ```
 
 # License
