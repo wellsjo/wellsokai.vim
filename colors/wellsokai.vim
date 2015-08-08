@@ -1,4 +1,4 @@
-# @author Wells Johnston <w@wellsjohnston.com>
+" @author Wells Johnston <w@wellsjohnston.com>
 
 set background=dark
 highlight clear
@@ -7,7 +7,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "wells-colors"
+let g:colors_name = "wellsokai"
 
 " highlight, visual
 " yellow
