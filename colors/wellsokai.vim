@@ -58,7 +58,7 @@ hi Function ctermfg=120 ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi cssClassName ctermfg=120 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 hi htmlH2 ctermfg=120 ctermbg=NONE cterm=NONE guifg=#67930f guibg=NONE gui=NONE
 hi cssPseudoClassId ctermfg=120 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
-hi CursorLineNr ctermfg=120 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
+hi CursorLineNr ctermfg=120 ctermbg=237 cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
 
 " grey
 " comments, folded
