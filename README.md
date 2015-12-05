@@ -1,9 +1,8 @@
 # wellsokai
 
-Inspired by Monokai (https://github.com/kevinsawicki/monokai) which is the default Sublime text editor.  This has more pronounced colors, as well as highlighting. 
+Inspired by [Monokai](https://github.com/kevinsawicki/monokai) from the popular [Sublime](http://www.sublimetext.com/) text editor.  Wellsokai feels cleaner, has more pronounced colors, as well as yellow highlighting in `Visual` mode and search. 
 
-yellow highlight is for visual mode and search
-![screenshot](http://i.imgur.com/GFEjjzi.png)
+![screenshot](http://i.imgur.com/cuwvnrr.png)
 
 #Install (pathogen)
 ```bash
