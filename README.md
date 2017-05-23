@@ -1,18 +1,18 @@
 # wellsokai
 
-Inspired by [Monokai](https://github.com/kevinsawicki/monokai) from the popular [Sublime](http://www.sublimetext.com/) text editor.  This feels cleaner, has more pronounced colors, as well as yellow highlighting in `Visual` mode and search. 
+Inspired by [Monokai](https://github.com/kevinsawicki/monokai) from the popular [Sublime](http://www.sublimetext.com/) text editor.  This is cleaner, has more pronounced colors, as well as yellow highlighting in `Visual` mode and search. 
 
 ![screenshot](http://i.imgur.com/cuwvnrr.png)
 
-#Install (pathogen)
+# Install
+Pathogen
 ```bash
-cd ~/.vim/bundle/
-git clone https://github.com/wellsjo/wells-colorscheme.vim.git
+git clone https://github.com/wellsjo/wells-colorscheme.vim.git ~/.vim/bundle/wellsokai.vim
 ```
-
-then in vimrc
-```bash
-colorscheme wellsokai
+Plug
+```vim
+" ~/.vimrc
+Plug 'wellsjo/wellokai.vim'
 ```
 
 # License
